@@ -6,10 +6,71 @@
     <title>Trivia Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="assets/javascript/app.js"></script>
 
 </head>
 <body>
+    <h1>The Best Trivia Game</h1>
+    
+    <form id= "trivia" name = "trivia">
+    
+    <p>What is the capital city of Spain?</p>
+    <input type = "radio" id = "mc" name = "question1" value="Barcelona"> Barcelona <br>
+    <input type = "radio" id = "mc" name = "question1" value="Madrid"> Madrid <br>
+    <input type = "radio" id = "mc" name = "question1" value="Manchestor"> Manchestor <br>
+    <input type = "radio" id = "mc" name = "question1" value="Bayern"> Bayern <br>
+
+    <p>Which state is the Clear Water beach located at?</p>
+    <input type = "radio" id = "mc" name = "question2" value="North Carolina"> North Carolina <br>
+    <input type = "radio" id = "mc" name = "question2" value="South Carolina"> South Carolina <br>
+    <input type = "radio" id = "mc" name = "question2" value="Florida"> Florida <br>
+    <input type = "radio" id = "mc" name = "question2" value="Washington"> Washington <br>
+
+    <p>How many states are there in the USA?</p>
+    <input type = "radio" id = "mc" name = "question3" value="50"> 50 <br>
+    <input type = "radio" id = "mc" name = "question3" value="48"> 48 <br>
+    <input type = "radio" id = "mc" name = "question3" value="51"> 51 <br>
+    <input type = "radio" id = "mc" name = "question3" value="45"> 45 <br>
+   
+   
+
+    <p>What club does Cristiano Ronaldo play for?</p>
+    <input type = "radio" id = "mc" name = "question4" value="Barcelona"> Barcelona <br>
+    <input type = "radio" id = "mc" name = "question4" value="Real Madrid"> Real Madrid <br>
+    <input type = "radio" id = "mc" name = "question4" value="Juventus"> Juventus <br>
+    <input type = "radio" id = "mc" name = "question4" value="Mancheser United"> Mancheser United <br>
+  
+
+
+    <p>How many players are there in a Baseball Team?</p>
+    <input type = "radio" id = "mc" name = "question5" value="9"> 9 <br>
+    <input type = "radio" id = "mc" name = "question5" value="10"> 10 <br>
+    <input type = "radio" id = "mc" name = "question5" value="11"> 11 <br>
+    <input type = "radio" id = "mc" name = "question5" value="12"> 12 <br>
+
+
+    <p>In which US state did the frist plane fly?</p>
+    <input type = "radio" id = "mc" name = "question6" value="North Carolina"> North Carolina <br>
+    <input type = "radio" id = "mc" name = "question6" value="South Carolina"> South Carolina <br>
+    <input type = "radio" id = "mc" name = "question6" value="Florida"> Florida <br>
+    <input type = "radio" id = "mc" name = "question6" value="Washington"> Washington <br>
+
+
+    <p>What is Chandler's job title in Freinds TV show?</p>
+    <input type = "radio" id = "mc" name = "question7" value="Teacher"> Teacher <br>
+    <input type = "radio" id = "mc" name = "question7" value="Data Processor"> Data Processor <br>
+    <input type = "radio" id = "mc" name = "question7" value="IT Analyst"> IT Analyst <br>
+    <input type = "radio" id = "mc" name = "question7" value="Typist"> Typist <br>
+
+    <input id= "button" type="button" value="See Results!" onclick="check();">
+
+    </form>
+
+    <div id= "afterResults">
+        <p id= "range"></p>
+        <p id= "numberCorrect"> </p>
+    </div>
     
 </body>
 </html>
